@@ -1,0 +1,13 @@
+{
+  "name": "fitness-mobile-pwa",
+  "version": "1.0.0",
+  "description": "Fitness Club Mobile PWA",
+  "scripts": {
+    "build:css": "tailwindcss -i ./mobile_app/css/style.css -o ./mobile_app/css/output.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.1",
+    "postcss": "^8.4.35",
+    "autoprefixer": "^10.4.17"
+  }
+} 

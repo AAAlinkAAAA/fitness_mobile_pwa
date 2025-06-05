@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  body {
+    @apply bg-gray-100;
+  }
+
+  #app {
+    @apply min-h-screen flex flex-col;
+  }
+
+  main {
+    @apply flex-grow;
+  }
+
+  .card {
+    @apply bg-white p-4 rounded-lg shadow-md mb-4;
+  }
+
+  .error {
+    @apply text-red-500 text-sm mb-4;
+  }
+
+  input, select {
+    @apply border border-gray-300 p-2 rounded-lg w-full mb-2;
+  }
+
+  button {
+    @apply bg-blue-600 text-white p-2 rounded-lg hover:bg-blue-700;
+  }
+}
